@@ -1,2 +1,3 @@
-# javascript
-A code repo for javascript series
+# Javascript
+## A Code Repo for Javascript Series by Chai aur Code
+
