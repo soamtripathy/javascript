@@ -22,14 +22,38 @@ const bigNumber = 3493023422322323n
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"]
+// const heros = ["shaktiman", "naagraj", "doga"]
 
-let myObj = {
-    name : "Soumya",
-    age : "23",
+// let myObj = {
+//     name : "Soumya",
+//     age : "23",
+// }
+
+// const myFunction = function(){
+//         console.log("hello world!");
+// }
+// console.log(typeof bigNumber);
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primiitive), Heap(Non-Primitive)
+
+
+let myYoutubeName = "soamtripathy.com"
+
+let anotherName = myYoutubeName
+
+anotherName = "chaiaurcode"
+
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
 }
 
-const myFunction = function(){
-        console.log("hello world!");
-}
-console.log(typeof bigNumber);
+let userTwo = userOne
+userTwo.email = "example@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
